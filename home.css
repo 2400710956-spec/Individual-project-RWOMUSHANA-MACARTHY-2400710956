@@ -1,0 +1,264 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff; 
+    text-align: center;
+    background-image: url('images/back.jpg');
+    background-size: cover;         
+    background-attachment: fixed;   
+    background-position: center;    
+    background-repeat: no-repeat;
+     min-height: 100vh; 
+
+
+}
+
+
+nav a{color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color:rgba(52, 1, 1, 0.779); 
+    padding: 15px 0;
+    position: sticky; 
+    top: 0;
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    justify-content: center;
+}
+
+main img{width: 300px;
+    border-radius: 800px;
+    background-color:grey;
+}
+
+
+nav ul li {
+    display: inline-block; 
+}
+
+nav a {
+    padding: 30px 20px; 
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.hello-section {
+    min-height: 90vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.hero-content {
+    max-width: 900px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1); 
+}
+
+h1 span {
+    color: green; 
+}
+
+.tagline {
+    margin: 30px auto;
+    font-size: 1.5em;
+    max-width: 700px;
+    line-height: 1.4;
+}
+
+
+.button-group a, .cta-button {
+    display: inline-block;
+    padding: 15px 35px;
+    margin: 10px;
+    border-radius: 8px; 
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+.cta-button {
+    background-color: rgba(190, 59, 11, 0.791); 
+    color: #000;
+    border: 2px solid rgb(166, 167, 153);
+}
+
+
+.accent-button {
+    background-color: rgba(190, 59, 11, 0.791); 
+    color: #000;
+    border: 2px solid rgb(166, 167, 153);
+}
+
+
+
+.active-page {
+    color: green !important;
+    border-bottom: 2px solid green;
+}
+
+
+
+.content-section {
+    padding: 80px 20px;
+    min-height: 70vh; 
+    background-color: rgba(0, 0, 0, 0.95); 
+}
+
+
+
+.card {
+    background-color: rgba(110, 5, 5, 0.05);
+    padding: 30px;
+    border-radius: 8px;
+    flex-basis: 30%; 
+    min-width: 280px;
+    border-bottom: 5px solid green;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 20px;
+}
+
+
+.card h3 {
+    margin-bottom: 15px;
+    color: rgb(187, 198, 29);
+}
+
+
+
+
+.price-card {
+    background-color: #222;
+    padding: 40px 20px;
+    border-radius: 10px;
+    flex-basis: 30%;
+    min-width: 280px;
+    border: 2px solid transparent;
+}
+
+
+
+.price-card.standard {
+    border-color: rgb(187, 198, 29); 
+    transform: scale(1.05);
+}
+
+.price-card .price {
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(187, 198, 29);
+    margin: 10px 0 30px;
+}
+
+.price-card .price span {
+    font-size: 0.4em;
+    font-weight: normal;
+}
+
+.price-card ul {
+    list-style: none;
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 0 10%;
+}
+
+.price-card ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.cross-out {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.trainer-profile img {
+    border-radius: 50%;
+    border: 5px solid green;
+    margin-bottom: 15px;
+}
+
+.trainer-profile h3 {
+    color: rgb(187, 198, 29);
+    margin-bottom: 5px;
+}
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+
+
+footer {
+    padding: 25px 0;
+    background-color: #000; 
+    color: #888;
+    font-size: 0.9em;
+    border-top: 5px solid green;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    color: #888;
+}
+
+.footer-links a:hover {
+    color: rgb(187, 198, 29);
+}
